@@ -1,0 +1,73 @@
+@use "../abstract/variables" as *;
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right, #60a0d8aa, #b3d234aa),
+        url("images/header-bg.png") no-repeat center center/cover;
+    height: 100vh;
+
+    &-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 3rem;
+        height: 10vh;
+
+        &-logo {
+            height: 10vh;
+        }
+
+        &-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            list-style: none;
+            gap: 75px;
+            font-weight: $light;
+            font-size: 1.25rem;
+
+            &-item {
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+                &:hover {
+                    border-bottom: white 2px solid;
+                }
+            }
+        }
+    }
+
+    &-tagline {
+        text-align: center;
+        color: white;
+        &-title {
+            font-size: 126px;
+            font-weight: $semibold;
+        }
+        &-subtitle {
+            transform: rotate(-9deg) translateY(-20px);
+            padding-left: 180px;
+            font-style: italic;
+            font-size: 54px;
+            font-weight: $normal;
+        }
+    }
+
+    &-social {
+        display: flex;
+        justify-content: right;
+        align-items: end;
+        height: 138px;
+        gap: 20px;
+        padding: 2rem 3rem;
+
+        &-icon {
+            cursor: pointer;
+            height: 32px;
+            width: 32px;
+        }
+    }
+}

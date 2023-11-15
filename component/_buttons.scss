@@ -1,0 +1,58 @@
+@use "../abstract/variables" as *;
+
+.btn-1 {
+    background-color: white;
+    color: $couleur1;
+    padding: 0.75rem 2.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: $couleur1;
+        color: white;
+        transform: scale(1.1);
+        box-shadow: #00000030 0px 5px 10px;
+    }
+}
+
+.btn-2 {
+    background-color: $couleur1;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: white;
+        color: $couleur1;
+        transform: scale(1.05);
+        box-shadow: #00000030 0px 5px 10px;
+    }
+}
+
+.btn-3 {
+    background-color: white;
+    color: $couleur1;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: $couleur1;
+        color: white;
+        transform: scale(1.05);
+        box-shadow: #00000030 0px 5px 10px;
+    }
+}

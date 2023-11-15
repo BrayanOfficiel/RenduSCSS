@@ -1,0 +1,89 @@
+@use "../abstract/variables" as *;
+
+.welcome {
+    overflow: hidden;
+    padding: 0 10rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    z-index: 0;
+    background: url("images/welcome-bg.png") no-repeat center center/cover;
+
+    &-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        height: 100%;
+
+        &-title {
+            margin: 0;
+            font-size: 70px;
+            font-weight: $bold;
+            color: $couleur1;
+        }
+
+        &-paragraph {
+            width: 50%;
+            font-size: 24px;
+            font-weight: $light;
+            color: $couleur3;
+            margin: 1rem 0;
+        }
+    }
+
+    &-image {
+        position: absolute;
+        right: -230px;
+        top: -50px;
+        height: 120vh;
+        z-index: -1;
+    }
+}
+
+.accroche {
+    color: white;
+    height: 100vh;
+    background: url("images/accroche-bg.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 8rem;
+    &-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: $couleur1alpha;
+        padding: 50px 70px;
+        width: 50%;
+        height: 70%;
+        &-title {
+            font-size: 80px;
+            font-weight: $bold;
+            color: white;
+            text-align: center;
+        }
+        &-paragraph {
+            width: 80%;
+            font-size: 20px;
+            font-weight: $light;
+            color: white;
+            text-align: center;
+        }
+    }
+}
+
+.menu {
+    height: 150vh;
+    background: url("images/menu-bg.png") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding: 0 8rem;
+
+}
