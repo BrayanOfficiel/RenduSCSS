@@ -6,7 +6,7 @@
 
 .btn-1 {
   background-color: white;
-  color: #b2d234;
+  color: rgb(178, 210, 50);
   padding: 0.75rem 2.5rem;
   border-radius: 8px;
   text-decoration: none;
@@ -17,14 +17,14 @@
   transition: all 0.3s ease-in-out;
 }
 .btn-1:hover {
-  background-color: #b2d234;
+  background-color: rgb(178, 210, 50);
   color: white;
   transform: scale(1.1);
   box-shadow: rgba(0, 0, 0, 0.1882352941) 0px 5px 10px;
 }
 
 .btn-2 {
-  background-color: #b2d234;
+  background-color: rgb(178, 210, 50);
   color: white;
   padding: 1rem 3rem;
   border-radius: 8px;
@@ -37,14 +37,14 @@
 }
 .btn-2:hover {
   background-color: white;
-  color: #b2d234;
+  color: rgb(178, 210, 50);
   transform: scale(1.05);
   box-shadow: rgba(0, 0, 0, 0.1882352941) 0px 5px 10px;
 }
 
 .btn-3 {
   background-color: white;
-  color: #b2d234;
+  color: rgb(178, 210, 50);
   padding: 1rem 4rem;
   border-radius: 8px;
   text-decoration: none;
@@ -55,7 +55,7 @@
   transition: all 0.3s ease-in-out;
 }
 .btn-3:hover {
-  background-color: #b2d234;
+  background-color: rgb(178, 210, 50);
   color: white;
   transform: scale(1.05);
   box-shadow: rgba(0, 0, 0, 0.1882352941) 0px 5px 10px;
@@ -148,7 +148,7 @@
   margin: 0;
   font-size: 70px;
   font-weight: 600;
-  color: #b2d234;
+  color: rgb(178, 210, 50);
 }
 .welcome-main-paragraph {
   width: 50%;
@@ -179,19 +179,19 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: rgba(179, 210, 52, 0.8666666667);
+  background: rgba(178, 210, 50, 0.85);
   padding: 50px 70px;
   width: 50%;
   height: 70%;
 }
 .accroche-main-title {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 600;
   color: white;
   text-align: center;
 }
 .accroche-main-paragraph {
-  width: 80%;
+  width: 90%;
   font-size: 20px;
   font-weight: 300;
   color: white;
@@ -206,6 +206,20 @@
   justify-content: right;
   align-items: center;
   padding: 0 8rem;
+}
+.menu-title {
+  font-size: 70px;
+  margin-top: 70px;
+  font-weight: 600;
+  color: rgb(178, 210, 50);
+  text-align: center;
+}
+.menu-paragraph {
+  width: 90%;
+  font-size: 20px;
+  font-weight: 300;
+  color: #606060;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
